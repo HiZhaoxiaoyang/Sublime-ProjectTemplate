@@ -1,0 +1,38 @@
+[
+     {
+          "caption": "Preferences",
+          "mnemonic": "n",
+          "id": "preferences",
+          "children":
+          [
+               {
+                    "caption": "Package Settings",
+                    "mnemonic": "P",
+                    "id": "package-settings",
+                    "children":
+                    [
+                         {
+                              "caption": "Project Template",
+                              "mnemonic": "M",
+                              "id": "pro-temp",
+                              "children":
+                              [
+                                   {
+                                        "command": "open_file", "args":
+                                   {
+                                        "file": "${packages}/ProjectTemplate/ProTemp.py"
+                                   },
+                                        "caption": "View Source"
+                                   },
+                                   {
+                                        "caption": "Running plugin",
+                                        "id": "running-plugin",
+                                        "command": "project_temp"
+                                   }
+                              ]
+                         }
+                    ]
+               }
+          ]
+     }
+]

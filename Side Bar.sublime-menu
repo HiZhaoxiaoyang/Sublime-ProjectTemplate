@@ -1,0 +1,17 @@
+[
+	{
+		"caption": "Project Configuration",
+		"children":[
+		    {
+		        "caption": "Project: Add/Remove",
+		        "command": "project_stprj_update_file"
+		    },{
+				"caption":"Project: Run",
+				"command":"project_tree_templater"
+			},{
+				"caption":"Project: Delete Config",
+				"command":"project_delete_config"
+			}
+		]
+	}
+]
